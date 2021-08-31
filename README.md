@@ -1,0 +1,1 @@
+Este é um site fictício que criei, como exercício proposto pelo curso de front-end da DEVMEDIA.
