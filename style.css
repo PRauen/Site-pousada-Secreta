@@ -1,0 +1,252 @@
+*{box-sizing: border-box;}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #3d3d3d;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color:#333;
+}
+
+/* div{
+    max-width: 1024px;
+} */
+
+#topo{    
+    position: fixed;
+    width: 100%;    
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #9b9b9b;
+}
+
+#topo div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    padding: 0 10px;
+    margin: 0 auto;    
+}
+
+.link-pousada{
+    margin: 0 40px 0 0;
+    font-size: 24px;
+    font-weight: bolder;    
+}
+ 
+.link-pousada span{
+    color:rgb(20, 118, 230);
+}
+
+.menu{
+    line-height: 18px;
+    padding: 0px 15px 10px 15px;
+    color: #3d3d3d;
+    text-transform: uppercase;       
+}
+
+.link-pousada:hover, .menu:hover{
+    border-bottom: 3px solid #6592c3;
+}
+
+.inicio{
+    background-image: url(img/img-fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inicio .inicio-fundo{
+    display: flex;
+    border:3px solid white;
+    background-color: black;
+    opacity: 0.35;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.inicio .inicio-conteudo{
+    text-align: center;
+    font-weight: bold;
+    color:whitesmoke;
+}
+
+.bem-vindo{
+    display: flex;
+    flex-flow:column wrap;
+    align-content: center;   
+    height: 200px; 
+    top: 150px;
+}
+
+.bem-vindo h3{
+    text-align: center;
+    font-size: 22px;    
+}
+
+#sobre{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(252, 230, 191);
+    padding: 0;
+    margin: 0;
+}
+
+#descricao{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+    background-color: rgb(255, 237, 204);
+    padding: 0;
+    margin: 0;
+}
+
+#descricao article{
+    display: flex;
+    width: 500px;
+    height: 400px;
+    justify-content:space-around;
+    align-content: space-around;
+}
+
+#descricao h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+#descricao p{
+    text-align: justify;
+}
+
+article img{
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:black 2px;
+}
+
+.pousada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-justify: auto;
+}
+
+.alimentação{
+    display: flex;
+    flex-direction: column;
+}
+
+.nossosquartos{
+    display: flex;
+    flex-direction: column;
+}
+
+.recepcao{
+    display: flex;
+    flex-direction: column;
+}
+
+#quartos{
+    display: flex;
+    flex-flow: column wrap;
+    font-size: 20px;
+    background-color: rgb(227, 255, 255);
+}
+
+.quartos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;    
+    text-align: center;
+}
+
+.quartos-texto{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    font-weight: 500 ;
+    margin-top: 0px;
+    background-color: rgb(207, 252, 252);
+}
+
+.solteiro:hover, .casal:hover, .familia:hover{
+    border-bottom: 3px solid #6592c3;
+}
+
+.quartos img{
+    width: 200px;
+    height: 200px;
+}
+
+#rota{
+    text-align: center;
+    height: auto;
+}
+
+footer{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    background-color: rgb(123, 175, 123);
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.informacoes div p{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.contatos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.contatos p{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.contatos img{
+    background-color: rgb(88, 220, 230);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.contatos a{
+    color: darkred;    
+}
+
+.direitos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+}
